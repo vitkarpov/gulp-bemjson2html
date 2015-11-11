@@ -1,0 +1,14 @@
+{
+  "name": "gulp-bemjson2html",
+  "version": "1.0.0",
+  "description": "Gulp plugin which converts bemjson to html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bem"
+  ],
+  "author": "vitkarpov <viktor.s.karpov@gmail.com>",
+  "license": "ISC"
+}
