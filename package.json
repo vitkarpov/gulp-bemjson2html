@@ -1,6 +1,6 @@
 {
   "name": "gulp-bemjson2html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin which converts bemjson to html",
   "main": "index.js",
   "scripts": {
