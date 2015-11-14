@@ -5,7 +5,7 @@ var through = require('through2');
 
 module.exports = function(options) {
     return through.obj(function(file, encoding, done) {
-        var bemhtml = path.resolve(process.cwd(), options.template);
+        var bemhtml = path.resolve(process.cwd(), options.template || '');
 
         fs.readFile(bemhtml, 'utf8', function(err, bemhtml) {
             var bemjson = new Function('return ' + file.contents.toString())();

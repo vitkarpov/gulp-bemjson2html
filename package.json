@@ -10,5 +10,9 @@
     "bem"
   ],
   "author": "vitkarpov <viktor.s.karpov@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bem-xjst": "^4.2.7",
+    "through2": "^2.0.0"
+  }
 }
